@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="index.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
+    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"> 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
+    
 </head>
 
 
@@ -18,7 +21,7 @@
     <div>
         <div id="body1">
             <img src="logo.PNG" id="logo">
-            <div class ="topp"><h1 class="mainhead">About</h1></div>
+            <div class ="topp"><h1 class="mainhead">About </h1></div>
             <div class ="topp"><h1 class="mainhead">Blogs</h1></div>
             <div class ="topp"><h1 class="mainhead">Careers</h1></div>
             <div class ="topp"><h1 class="mainhead">Contact</h1></div>
@@ -128,11 +131,13 @@
                 <input type="text" id="fname" name="email" placeholder="your email..">
 
                 <input type="text" id="msg" name="massage" placeholder="Massage..">
-
-                <div id="b4c">
-                    <h3 id="lst">Submit</h3>
-
+                
+                <div id="b4c"  id="button-a">
+                     
+                    <h3  id="lst">Submit</h3>
+                    
                 </div>
+               
 
            </div>
 
@@ -141,6 +146,11 @@
 
 
     </div>
+    <script>
+        $('#button-a').click(function(){
+                alert("ergerg");
+        });
+    </script>
     
 </body>
 </html>

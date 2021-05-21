@@ -1,14 +1,18 @@
 body{
      margin: 0px;
      padding: 0px;
+     margin: 0px;
+     padding: 0px;
+    
      
 }
 #body1{
     background-color: white;
     width: 1500px;
     height: 70px;
-    margin: 0px;
+    margin: 0 auto;
     padding: 0px;
+   
 }
 
 #body2{
@@ -59,9 +63,8 @@ body{
     
 }
 .topp{
-    left: 760px;
     position: relative;
-    float: left;
+    float: right;
     margin-top: 1 px;
     padding-right: 20px;
     padding-left: 10px;
@@ -73,7 +76,7 @@ body{
     top: 20px;
 }
 #logo{
-       float: left;
+    float: left;
     width: 200px;
     height: 50px;
     margin: 10px 10px 10px 10px;
@@ -103,6 +106,7 @@ body{
     text-align: center;
 
      margin: 0 auto;  /* change krna h */
+     
     
 }
 
@@ -124,8 +128,8 @@ body{
     
     width: 300px;
     height: 100px;
-   
-   
+
+ 
     
     padding: 15px;
     margin: auto;
@@ -135,6 +139,8 @@ body{
     margin: 20px;
 
 }
+
+ 
 
 #body4cont{
     position: relative;
@@ -215,4 +221,50 @@ body{
     width: 500px;
     margin: 5px 10px;
 
+}
+
+@media(max-width:768px){
+    h1{
+        color: #e97dda;
+        
+        
+    }
+    h3{
+        color: aqua;
+    }
+    #body1{
+        width: 100%;
+       
+    }
+    #body2{
+        width: 100%;
+       
+    }
+    #body3{
+        width: 100%;
+       
+    }
+    #body4{
+        width: 100%;
+       
+    }
+
+    #body5{
+        width: 100%;
+       
+    }
+    #contbody3{
+        width: 100%;
+    }   
+    #b5cantner{
+        width: 100%;
+    }
+    .topp{
+        width: 100%;
+    }
+    .mainhead{
+        width: 100%;
+    }
+    
+    
 }
